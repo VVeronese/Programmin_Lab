@@ -1,5 +1,5 @@
 # my_file = open ('shampoo_sales.csv', 'r')
-def sum_lista(my_file):
+def sum_csv(my_file):
     values = [] 
     total = "0"
    
@@ -15,5 +15,5 @@ def sum_lista(my_file):
         total += value
 
     return total
-    print(total)
+    
 
