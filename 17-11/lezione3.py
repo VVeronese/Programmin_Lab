@@ -1,4 +1,4 @@
-# my_file = open ('shampoo_sales.csv', 'r')
+my_file = open ('shampoo_sales.csv', 'r')
 def sum_csv(my_file):
     values = [] 
     total = "0"
