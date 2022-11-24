@@ -1,4 +1,4 @@
-#
+
 def sum_csv(my_file):
     file = open (my_file, 'r') #apro my_file nella funzione
     values = [] 
@@ -13,10 +13,11 @@ def sum_csv(my_file):
         
             values.append(float(value)) #trasformo i valori in float
     
-    if len(values) == 0:  #se my_file è vuoto
-            return None
+  
     for value in values:  #sommo i valori in variabile total
         total += value
+    if len(values) == 0:  #se my_file è vuoto
+            return None
    
 
     return total
