@@ -1,11 +1,11 @@
 #
 def sum_csv(my_file):
-    my_file = open ('my_file', 'r') #apro my_file nella funzione
+    file = open (my_file, 'r') #apro my_file nella funzione
     values = [] 
     total = 0
    
-    for line in my_file:
-        if len(my_file) == 0:  #se my_file è vuoto
+    for line in file:
+        if len(file) == 0:  #se my_file è vuoto
             return None
         elements = line.split (',')  #split degli elementi nel file
         if elements[0] != 'Date':
