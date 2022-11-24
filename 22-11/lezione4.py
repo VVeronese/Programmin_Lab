@@ -16,6 +16,6 @@ class CSVFile():
 
 
 
-#print(CSVFile().get_data('shampoo_sales.csv'))
+CSVFile().get_data('shampoo_sales.csv')
    
     
