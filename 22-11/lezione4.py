@@ -6,8 +6,8 @@ class CSVFile():
         file = open (my_file, 'r') #apro my_file nella funzione
         values = []
         for line in file:
-            lines = line.split ('\n')  #split delle linee nel file
-            lines.append(list(values)) #ritorno ogni linea in una lista
+            lines = line.split ()  #split delle linee nel file
+            lines.append(list((values))) #ritorno ogni linea in una lista
         return values; #ritorno le liste
         
    
