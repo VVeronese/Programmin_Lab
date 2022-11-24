@@ -14,6 +14,6 @@ class CSVFile():
             lists.append(item) #ritorno ogni linea in una lista
         return lists; #ritorno le liste
 
-CSVFile().get_data('shampoo_sales.csv') #test con shampoo_sales
+#CSVFile().get_data('shampoo_sales.csv') test con shampoo_sales
    
     
